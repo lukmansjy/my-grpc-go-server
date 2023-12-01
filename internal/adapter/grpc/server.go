@@ -2,16 +2,15 @@ package grpc
 
 import (
 	"fmt"
-	"github.com/lukmansjy/my-grpc-go-server/internal/port"
-	"github.com/lukmansjy/my-grpc-proto/protogen/go/hello"
 	"google.golang.org/grpc"
 	"log"
+	"my-grpc-go-server/internal/application"
 	"my-grpc-go-server/internal/port"
 	"net"
 )
 
 type GrpcAdapter struct {
-	helloService port.HelloServicePort
+	helloService application.HelloService
 	grpcPort     int
 	server       *grpc.Server
 }
