@@ -1,18 +1,18 @@
 package main
 
 import (
+	mygrpc "github.com/lukmansjy/my-grpc-go-server/internal/adapter/grpc"
+	app "github.com/lukmansjy/my-grpc-go-server/internal/application"
 	"log"
-	"my-grpc-go-server/internal/adapter/grpc"
-	"my-grpc-go-server/internal/application"
 )
 
 func main() {
 	log.SetFlags(0)
 	log.SetOutput(logWriter{})
 
-	hs := &application.HelloService{}
+	hs := &app.HelloService{}
 
-	grpcAdapter := grpc.NewGrpcAdapter(hs, 9090)
+	grpcAdapter := mygrpc.NewGrpcAdapter(hs, 9090)
 
 	grpcAdapter.Run()
 }
