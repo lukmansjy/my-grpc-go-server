@@ -8,7 +8,7 @@ import (
 
 func main() {
 	log.SetFlags(0)
-	log.SetOutput(logWriter{})
+	//log.SetOutput(logWriter{})
 
 	hs := &app.HelloService{}
 
