@@ -10,6 +10,8 @@ github.com/lukmansjy/my-grpc-proto v0.0.2 h1:6OGy+EZtiLJCPgI5+IcqUCQaSuOClBrIB+L
 github.com/lukmansjy/my-grpc-proto v0.0.2/go.mod h1:qUINJywDh0i30IGp1B0DjWJsPctrjFr11WXpsMYi0Eg=
 github.com/lukmansjy/my-grpc-proto v0.0.3 h1:/0ttz/YvKruBrAujIhUX0ShrqN+vCv/k5vYpA74J7Zo=
 github.com/lukmansjy/my-grpc-proto v0.0.3/go.mod h1:qUINJywDh0i30IGp1B0DjWJsPctrjFr11WXpsMYi0Eg=
+github.com/lukmansjy/my-grpc-proto v0.0.4 h1:5ujzHRJ+ReAUU5749ZXMo+g0PdQRomBBfmMVMFpTJek=
+github.com/lukmansjy/my-grpc-proto v0.0.4/go.mod h1:6Cu6byZQRVI1F3RBys0+X6M7T3k3jPB/RzEwjiho3ek=
 golang.org/x/net v0.14.0 h1:BONx9s002vGdD9umnlX1Po8vOZmrgH34qlHcD1MfK14=
 golang.org/x/net v0.14.0/go.mod h1:PpSgVXXLK0OxS0F31C1/tv6XNguvCrnXIDrFMspZIUI=
 golang.org/x/net v0.19.0 h1:zTwKpTd2XuCqf8huc7Fo2iSy+4RHPd10s4KzeTnVr1c=

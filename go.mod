@@ -3,7 +3,7 @@ module github.com/lukmansjy/my-grpc-go-server
 go 1.21.3
 
 require (
-	github.com/lukmansjy/my-grpc-proto v0.0.3
+	github.com/lukmansjy/my-grpc-proto v0.0.4
 	google.golang.org/grpc v1.60.0
 )
 
